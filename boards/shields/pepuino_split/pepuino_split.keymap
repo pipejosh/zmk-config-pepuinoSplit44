@@ -1,8 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/studio.h>
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
+#include <zmk/studio.h>
 
 / {
     keymap {
@@ -11,7 +9,7 @@
         default_layer {
             bindings = <
                 // LKey 1  | LKey 2  | LKey 3  | LKey 4  | LKey 5  | LKey 6      RKey 1  | RKey 2  | RKey 3  | RKey 4  | RKey 5  | RKey 6
-                &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp LBKT    &kp RBKT
+                &studio_unlock        &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp LBKT    &kp RBKT
 
                 // LKey 7  | LKey 8  | LKey 9  | LKey 10 | LKey 11 | LKey 12     RKey 7  | RKey 8  | RKey 9  | RKey 10 | RKey 11 | RKey 12
                 &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT     &kp ENTER
