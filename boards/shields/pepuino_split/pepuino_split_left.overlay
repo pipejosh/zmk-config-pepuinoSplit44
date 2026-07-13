@@ -1,1 +1,7 @@
 #include "pepuino_split.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &kscan;
+    };
+};
