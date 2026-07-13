@@ -1,7 +1,0 @@
-# No whitespace after the comma or in your part name!
-config SHIELD_PEPUINO_SPLIT_LEFT
-    def_bool $(shields_list_contains,pepuino_split_left)
-
-# No whitespace after the comma or in your part name!
-config SHIELD_PEPUINO_SPLIT_RIGHT
-    def_bool $(shields_list_contains,pepuino_split_right)
